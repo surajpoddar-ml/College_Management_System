@@ -340,6 +340,18 @@ const Login = () => {
                 Create one
               </Link>
             </p>
+
+            <p className="mt-6 text-center text-xs text-[#9ca3af]">
+              Powered by{' '}
+              <a
+                href="https://www.instagram.com/kiwi.nepal?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-[#3b82f6] transition-colors hover:text-[#2563eb] hover:underline"
+              >
+                Kiwi Nepal
+              </a>
+            </p>
           </div>
         </section>
 

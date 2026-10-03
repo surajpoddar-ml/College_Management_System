@@ -474,6 +474,20 @@ const Sidebar = ({
             <LogOut size={17} />
             <span className={collapsed ? 'xl:hidden' : ''}>Log out</span>
           </button>
+
+          <div className={`mt-2 px-1 text-center ${collapsed ? 'xl:hidden' : ''}`}>
+            <p className="text-[11px] font-medium" style={{ color: t.sidebarMuted }}>
+              Powered by{' '}
+              <a
+                href="https://www.instagram.com/kiwi.nepal?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-[#3b82f6] hover:underline"
+              >
+                Kiwi Nepal
+              </a>
+            </p>
+          </div>
         </div>
       </aside>
     </>

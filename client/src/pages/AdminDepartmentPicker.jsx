@@ -13,8 +13,8 @@ const AdminDepartmentPicker = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-black px-6 py-10 text-white">
-      <div className="mx-auto max-w-5xl">
+    <div className="flex min-h-screen flex-col justify-between bg-black px-6 py-10 text-white">
+      <div className="mx-auto w-full max-w-5xl">
         <h1 className="text-3xl font-extrabold text-white">Admin Panels</h1>
         <p className="mt-1 text-sm text-neutral-400">Select a department to sign in to.</p>
 
@@ -33,6 +33,18 @@ const AdminDepartmentPicker = () => {
             </button>
           ))}
         </div>
+      </div>
+
+      <div className="mt-12 text-center text-xs text-neutral-500">
+        Powered by{' '}
+        <a
+          href="https://www.instagram.com/kiwi.nepal?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-blue-400 transition-colors hover:text-blue-300 hover:underline"
+        >
+          Kiwi Nepal
+        </a>
       </div>
     </div>
   );
